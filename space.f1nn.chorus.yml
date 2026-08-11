@@ -36,8 +36,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/f1nniboy/chorus.git
-        tag: v0.5.1
-        commit: f78ac9cd4c35c662e2ab8360575669272a62ae34
+        tag: v0.6.1
+        commit: 08c9f6cb37fc66f8e4cd534bb222ba798bb78be0
         x-checker-data:
           type: git
       - go.mod.yml
