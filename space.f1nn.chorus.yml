@@ -1,6 +1,6 @@
 id: space.f1nn.chorus
 runtime: org.gnome.Platform
-runtime-version: "50"
+runtime-version: "51"
 sdk: org.gnome.Sdk
 command: chorus
 
@@ -36,8 +36,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/f1nniboy/chorus.git
-        tag: v0.6.1
-        commit: 08c9f6cb37fc66f8e4cd534bb222ba798bb78be0
-        x-checker-data:
-          type: git
+        tag: v0.7.0
+        commit: 406ccf53900e4c699a07a10986c868ffcd2983e4
       - go.mod.yml
